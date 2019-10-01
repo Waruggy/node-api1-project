@@ -111,7 +111,7 @@ server.delete('/api/users/:id', (req, res) => {
 
 
 //post 
-const port = 5000;
+const port = 8000;
 server.listen(port, () => {
     console.log(`\n** API is running on ${port}! \n`);
 })
